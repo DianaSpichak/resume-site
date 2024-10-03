@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    background-color: #d4dff6;
+    color: #333;
+    overflow: auto;
+}
+
+.header-info {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap-reverse;
+    gap: 13%
+}
+
+.conteiner {
+    width: 65%;
+}
+
+.header-info h1 {
+    font-size: 24px;
+    color: #333;
+    text-decoration: underline;
+    text-decoration-color: #d4dff6;
+    text-decoration-thickness: 2px;
+}
+
+.info p {
+    margin-top: 13px;
+    font-size: 15px;
+}
+
+.info a:hover{
+    border-bottom: 1px solid;
+    background: #e4f0dc;
+}
+
+.header_photo {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #c2c9d2;
+}
+
+
+.table-resume {
+    width: 90%;
+    margin: auto;
+    font-size: 15px;
+    border-radius: 8px;
+    background-color: #ebf4fd;
+}
+
+.table-resume td {
+    padding: 20px;
+    vertical-align:auto;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    
+}
+
+.title-resume {
+    width: 25%;
+    background-color: #dceafa;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    line-height: 1.5em;
+}
+
+.details {
+    line-height: 1.5em;
+    width: 75%;
+    font-size: 15px;
+}
+
+.details p {
+    margin: 5px 0;
+}
+
+p.str:after { 
+    content: '\2014'; 
+}
+@media screen and (max-width: 715px) {
+    .header_photo {
+        display: flex;
+        justify-content: center;
+        margin-right: 0;
+        margin-top: 0px;
+        margin-bottom: 15px;
+    } 
+}
